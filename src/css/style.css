@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #999;
+  font-family: "PT Sans", Calibri, Helvetica, Arial, sans-serif;
+  background-color: #fff;
+  color: #1e3c4d;
+  font-size: 1.2rem;
+  user-select: none;
+  position: relative;
+}
+
+.help-desk {
+  margin: 20px auto;
+  padding: 10px;
+  display: flex;
+  width: 600px;
+
+  flex-direction: column;
+}
+
+.head-desk {
+  text-align: right;
+}
+
+.add-task {
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 1px gray;
+  outline: none;
+  background-color: white;
+  font-size: 1rem;
+}
+
+.body-desk {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: solid 1px gray;
+}
+
+.task {
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  border-bottom: solid 1px gray;
+}
+
+.task-name {
+  padding: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.task:last-child {
+  border-bottom: none;
+}
+
+.name {
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+.status {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: solid 1px gray;
+  text-align: center;
+}
+
+.date {
+  margin-right: 20px;
+}
+
+.task-description {
+  margin-left: 55px;
+  overflow-wrap: break-word;
+}
