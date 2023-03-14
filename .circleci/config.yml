@@ -25,7 +25,7 @@ jobs:
       #     name: Create gh-pages
       #     command: |
       #       git subtree split --prefix dist -b gh-pages
-      #       git push -f https://${GIT_TOKEN}@github.com/TomSG03/ahj-env2.git gh-pages:gh-pages
+      #       git push -f https://${GIT_TOKEN}@github.com/Dzuba110729/ahj-envv.git gh-pages:gh-pages
 
       #       git config --global credential.helper store
       #       git config --global user.name CircleCI
@@ -34,7 +34,7 @@ jobs:
       #       git rm *.*
       #       git add dist -f
       #       git commit -m "dist commit"
-      #       git push -f https://${GIT_TOKEN}@github.com/TomSG03/ahj-env2.git gh-pages
+      #       git push -f https://${GIT_TOKEN}@github.com/Dzuba110729/ahj-envv.git gh-pages
       # # - run:
       #     name: echo
       #     command: echo "https://$GIT_TOKEN:x-oauth-basic@github.com" > "$HOME/.git-credentials"
@@ -43,7 +43,7 @@ jobs:
       #     command: yarn deploy
       # - run: git add dist -f
       # - run: git commit -m "Initial dist subtree commit"  
-      # - run: git subtree push --prefix dist https://${GIT_TOKEN}@github.com/TomSG03/ahj-env2.git gh-pages
+      # - run: git subtree push --prefix dist https://${GIT_TOKEN}@github.com/Dzuba110729/ahj-envv.git gh-pages
       # - run: git subtree push --prefix dist origin gh-pages 
       
 workflows:
